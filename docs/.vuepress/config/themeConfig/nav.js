@@ -1,12 +1,12 @@
 // nav
 module.exports = [
   {
-    text: 'MySQL',
+    text: 'java',
     link: '/mysql/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
     items: [
-      { text: '索引', link: '/pages/b487c0/' },
-      { text: 'Java语言', link: '/pages/0b69c8/' },
-      { text: 'C语言', link: '/pages/7426b1/' },
+      { text: '基础', link: '/pages/b487c0/' },
+      { text: 'JVM', link: '/pages/0b69c8/' },
+      { text: 'JUC', link: '/pages/7426b1/' },
     ],
   },
   {
@@ -30,16 +30,8 @@ module.exports = [
     text: '框架',
     link: '/frame/',
     items: [
-      { text: 'spring全家桶', link: '/pages/9baa5c/' },
-      { text: 'mybatis', link: '/pages/eaabb9/' },
-    ],
-  },
-  {
-    text: '软件|系统',
-    link: '/system/',
-    items: [
-      { text: '软件相关', link: '/pages/6bf004/' },
-      { text: '系统相关', link: '/pages/a5d462/' },
+      { text: 'Spring全家桶', link: '/pages/9baa5c/' },
+      { text: 'Mybatis', link: '/pages/eaabb9/' },
     ],
   },
   {
@@ -53,7 +45,7 @@ module.exports = [
     ],
   },
   {
-    text: '面试',
+    text: '面经',
     link: '/interview/',
     items: [
       { text: '3月', link: '/pages/e7050d/' },
@@ -68,6 +60,6 @@ module.exports = [
   },
   {
     text: 'APP下载',
-    link: 'https://www.yd-mobile.cn/pack/download?versionId=2497&packName=com.xiaoyou.interview'
+    link: 'https://www.yd-mobile.cn/pack/download?versionId=2802&packName=com.site.lenyuqin'
   }
 ]
