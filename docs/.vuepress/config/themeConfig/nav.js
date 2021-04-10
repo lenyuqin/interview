@@ -52,7 +52,7 @@ module.exports = [
     ],
   },
   {
-    text: '其他',
+    text: '分布式',
     link: '/other/',
     items: [
       { text: '智力题', link: '/pages/e6c953/' }

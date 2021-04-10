@@ -15,7 +15,7 @@ postList: none
 
 <h1 align="center">🐵面试资料总结</h1>
 
-APP下载链接：[面试浓缩APP下载](https://www.yd-mobile.cn/pack/download?versionId=2802&packName=com.site.lenyuqin）
+APP下载链接：[面试浓缩APP下载](https://www.yd-mobile.cn/pack/download?versionId=2802&packName=com.site.lenyuqin)
 
 ## 创建目的
 
