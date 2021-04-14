@@ -1,61 +1,66 @@
 // nav
 module.exports = [
   {
-    text: 'java',
-    link: '/mysql/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+    text: 'Java',
+    link: '/java/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
     items: [
-      { text: '基础', link: '/pages/b487c0/' },
-      { text: 'JVM', link: '/pages/0b69c8/' },
-      { text: 'JUC', link: '/pages/7426b1/' },
+      { text: '基础', link: '/pages/7477f8/' },
+      { text: 'JVM', link: '/pages/5cc2fd/' },
+      { text: 'JUC', link: '/pages/60ebfd/' },
     ],
   },
   {
-    text: '数据库',
+    text: 'MySQL',
     link: '/database/',
     items: [
-      { text: 'MySQL', link: '/pages/1aef7c/' },
-      { text: 'Redis', link: '/pages/cbd711/' },
-      { text: 'MongoDB', link: '/pages/cbd712/' },
+      { text: 'MySQL', link: '/pages/2392af/' },
+      { text: 'Redis', link: '/pages/c0fbb2/' },
+      { text: 'MongoDB', link: '/pages/d451cf/' },
     ],
   },
   {
     text: '学科',
     link: '/base/',
     items: [
-      { text: '操作系统', link: '/pages/5bfa72/' },
-      { text: '计算机网咯', link: '/pages/6bb966/' },
+      { text: '操作系统', link: '/pages/82af64/' },
+      { text: '计算机网咯', link: '/pages/0a1bf2/' },
     ],
   },
   {
     text: '框架',
     link: '/frame/',
     items: [
-      { text: 'Spring全家桶', link: '/pages/9baa5c/' },
-      { text: 'Mybatis', link: '/pages/eaabb9/' },
+      { text: 'Spring', link: '/pages/1dc564/' },
+      { text: 'Mybatis', link: '/pages/72d04f/' },
+      { text: 'SpringSecurity', link: '/pages/eeb60a/' },
     ],
   },
   {
     text: '算法|数据结构',
     link: '/algorithm/',
     items: [
-      { text: '算法', link: '/pages/817a23/' },
-      { text: '数据结构', link: '/pages/cf8bda/' },
-      { text: '设计模式', link: '/pages/d240cd/' },
-      { text: 'CMU硕士经典100题', link: '/pages/413b20/' },
+      { text: '常见算法', link: '/pages/0a676b/' }
     ],
   },
   {
     text: '面经',
     link: '/interview/',
     items: [
-      { text: '3月', link: '/pages/e7050d/' },
+      { text: '3月', link: '/pages/afb239/' },
     ],
   },
   {
     text: '分布式',
-    link: '/other/',
+    link: '/cloud/',
     items: [
-      { text: '智力题', link: '/pages/e6c953/' }
+      { text: 'MQ', link: '/pages/64b78a/' },
+      { text: 'Nginx', link: '/pages/dd238f/' },
+      { text: 'SpringCloud', link: '/pages/4a1bcc/' },
+      { text: 'Docker', link: '/pages/198223/' },
+      { text: 'MongoDB', link: '/pages/d451cf/' },
+      { text: 'Zookeeper', link: '/pages/58a56d/' },
+      { text: 'Dubbo', link: '/pages/abc736/' },
+      { text: 'ElectSearch', link: '/pages/046245/' },
     ],
   },
   {

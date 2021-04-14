@@ -1,6 +1,6 @@
 ---
 categoriesPage: true
-title: 分类
-permalink: /categories/
-article: false
+title: 学科
+permalink: /base/
+article: true
 ---
